@@ -1,0 +1,102 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+article, body, div, figcaption, figure, form, h1, h2, h3, h4, html, img, label, li, nav, p, span, strong, ul {
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background: 0 0;
+}
+
+body {
+  font-size: 100%;
+  font-family: 'Proxima Nova Regular', 'Segoe UI', Roboto, 'Droid Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: rgb(51, 51, 51);
+  background: #f4ebd3;
+}
+
+#page {
+  width: 95%;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.25em;
+  padding-top: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 43.75em) {
+  #page {
+    font-size: 1em;
+    line-height: 1.375;
+  }
+}
+
+@media (min-width: 43.75em) {
+  #page {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 56.25em) {
+  #page {
+    max-width: 1400px;
+  }
+}
+
+
+header {
+}
+
+header h1 {
+  color: #b00000;
+  font-family: "Skolar Bold","Segoe UI Bold","Roboto Slab","Droid Serif",AvenirNext-Bold,"Avenir Bold",Georgia,"Times New Roman",Times,serif;
+  font-size: 3em;
+  font-weight: 700;
+  font-style: normal;
+  float: left;
+  padding: 10px 10px;
+  line-height: 1.1em;
+}
+
+section {
+  padding-top: 1em;
+  clear: both;
+}
+
+article {
+  margin: 0px auto;
+}
+
+article ul {
+  margin-left: 2em;
+}
+
+@media (min-width: 43.75em) {
+  #page {
+    max-width: 36em;
+  }
+}
+@media (min-width: 56.25em) {
+  #page {
+    max-width: 38em;
+  }
+}
