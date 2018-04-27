@@ -8,32 +8,40 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <style type="text/css">
+html, body {
+    height: 100%;
+}
 body {
     background-color: #EEEEEE;
-    margin:40px auto;
-    max-width:650px;
-    line-height:1.6;
-    font-size:18px;
+    font-size: 18px;
     color:#444;
-    padding:0 10px;
+    margin: 0;
 }
 
-h1,h2,h3 {
-    line-height:1.2;
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item {
+    width: auto;
+    text-align: center;
+    font-size: 5em;
 }
         </style>
     </head>
 
     <body>
-        <header>
-            <h1>jasen.dk</h1>
-            <aside>Home page of Kim Nørgaard</aside>
-        </header>
-        <ul>
-          <li><a href="https://github.com/KimNorgaard" title="github">github</a></li>
-          <li><a href="https://www.linkedin.com/in/khnorgaard" title="linkedin">linkedin</a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=619787682" title="facebook">facebook</a></li>
-          <li><a href="https://plus.google.com/110877416077739001011" title="google">google</a></li>
-        </ul>
+        <div class="flex-container">
+            <div class="flex-item">jasen.dk</div>
+        </div>
     </body>
 </html>
